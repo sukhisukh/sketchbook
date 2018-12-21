@@ -1,0 +1,83 @@
+body {
+  background-color: #333;
+  font-family: Optima,Segoe,"Segoe UI",Candara,Calibri,Arial,sans-serif; }
+
+.header {
+  padding: 1rem;
+  text-align: center;
+  color: #E77825;
+  /*#F48025;*/ }
+
+.section {
+  margin: -2rem 0;
+  display: flex; }
+  .section #tools {
+    background-color: #E77825;
+    padding: 2rem 1rem;
+    margin: 2rem 0;
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap; }
+    .section #tools button {
+      margin: 1rem 2 rem;
+      width: 75%;
+      height: 1.5rem;
+      font-size: 0.8rem;
+      font-weight: bold;
+      border: none;
+      -moz-border-radius: 0.5rem;
+      -webkit-border-radius: 0.5rem;
+      border-radius: 0.5rem;
+      /* future proofing */
+      -khtml-border-radius: 0.5rem;
+      /* for old Konqueror browsers */ }
+    .section #tools button:focus {
+      outline: none; }
+    .section #tools button:active {
+      background-color: #ddd;
+      text-decoration: underline; }
+    .section #tools label {
+      font-size: 0.8rem;
+      font-weight: bold; }
+    .section #tools input {
+      width: 85%;
+      margin: 1rem 2 rem; }
+    .section #tools #colorPicker {
+      margin: 0.2rem 0;
+      background-color: #ccc;
+      width: 75%;
+      height: 4rem;
+      padding: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: space-between; }
+      .section #tools #colorPicker li {
+        list-style: none;
+        width: 1rem;
+        height: 1rem;
+        padding: 0 0.5rem;
+        margin: 0.2rem 0.4rem;
+        cursor: pointer; }
+    .section #tools #red {
+      background-color: red; }
+    .section #tools #blue {
+      background-color: blue; }
+    .section #tools #green {
+      background-color: green; }
+    .section #tools #yellow {
+      background-color: yellow; }
+    .section #tools #orange {
+      background-color: orange; }
+    .section #tools #purple {
+      background-color: purple; }
+    .section #tools #brown {
+      background-color: brown; }
+    .section #tools #white {
+      background-color: #fff; }
+    .section #tools #black {
+      background-color: #000; }
+  .section #canvas {
+    background: #fff;
+    border: 0.1rem solid #E77825;
+    margin: 2rem 0;
+    cursor: pointer; }

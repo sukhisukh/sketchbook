@@ -1,0 +1,45 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Sukhada Assignment10</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/sketchbook.css">
+        <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+        <script src="js/sketchbook.js" async></script>
+    </head>
+    <body>
+        <div id="container">
+            <header class="header">
+                <h1>Your Doodler</h1>
+            </header>
+            <section class="section">
+                <div id="tools">
+                    <div>
+                        <label>change marker width</label>
+                        <input id="marker" type="range" max="10" min="1" value="1">
+                    </div>
+                    <div>
+                    <label>color picker</label>
+                        <ul id="colorPicker">
+                            <li id="red"></li>
+                            <li id="blue"></li>
+                            <li id="green"></li>
+                            <li id="yellow"></li>
+                            <li id="orange"></li>
+                            <li id="purple"></li>
+                            <li id="brown"></li>
+                            <li id="white"></li>
+                            <li id="black"></li>
+                        </ul>
+                    </div>
+                    <button id="clearCanvas" >clear canvas</button>
+                </div>
+                <canvas id="canvas" width="980" height="500"></canvas>
+            </section>
+        </div>
+    </body>
+</html>
